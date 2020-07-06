@@ -1,4 +1,4 @@
-package cn.hutool.core.lang.func;
+package com.chenzp.func;
 
 /**
  * 无参数的函数对象<br>
