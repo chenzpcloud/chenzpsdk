@@ -29,4 +29,7 @@ public abstract class AbstractCache<K, V> implements Cache<K, V> {
     /**所有数 */
     protected int allCount;
 
+    /**updateCount*/
+    private int updateCount;
+
 }
