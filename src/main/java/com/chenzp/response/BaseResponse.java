@@ -6,5 +6,7 @@ package com.chenzp.response;
  *  @Description:
  */
 public class BaseResponse<T> {
+
+    private  String code;
  
 }
