@@ -15,7 +15,7 @@ import java.util.Iterator;
  */
 public interface Cache<K, V> extends Iterable<V>, Serializable {
 
-	
+
 	/**
 	 * 返回缓存容量，<code>0</code>表示无大小限制
 	 * 
