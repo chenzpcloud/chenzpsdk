@@ -8,5 +8,7 @@ package com.chenzp.response;
 public class BaseResponse<T> {
 
     private  String code;
+
+    private  String msg;
  
 }
