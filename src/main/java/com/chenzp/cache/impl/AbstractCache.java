@@ -2,7 +2,6 @@ package com.chenzp.cache.impl;
 
 import com.chenzp.cache.Cache;
 
-import java.util.Map;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public abstract class AbstractCache<K, V> implements Cache<K, V> {
@@ -26,5 +25,8 @@ public abstract class AbstractCache<K, V> implements Cache<K, V> {
     protected int hitCount;
     /** 丢失数 */
     protected int missCount;
+
+    /**所有数 */
+    protected int allCount;
 
 }
