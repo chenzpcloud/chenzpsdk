@@ -26,4 +26,7 @@ public abstract class AbstractCache<K, V> implements Cache<K, V> {
     /** 丢失数 */
     protected int missCount;
 
+    /**所有数 */
+    protected int allCount;
+
 }
